@@ -1,0 +1,4 @@
+baseURL = "http://www.deathinvideogames.com"
+languageCode = "en-gb"
+title = "Death in Videogames"
+theme = "hello-friend-ng"
