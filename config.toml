@@ -1,4 +1,4 @@
-baseURL = "http://www.deathinvideogames.com"
+baseURL = "https://www.deathinvideogames.com"
 title = "Death in Videogames"
 languageCode = "en-gb"
 theme        = "hello-friend-ng"
