@@ -41,3 +41,7 @@ paginate     = 10
     identifier = "posts"
     name       = "Posts"
     url        = "/posts"
+  [[menu.main]]
+    identifier = "home"
+    name       = "Home"
+    url        = "/"

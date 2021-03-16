@@ -1,7 +1,6 @@
 ---
 title: "Spiritfarer"
 date: 2021-03-16T22:22:00Z
-draft: true
 toc: false
 tags:
   - spiritfarer
