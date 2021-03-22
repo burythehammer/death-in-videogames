@@ -1,0 +1,20 @@
+# Dependencies
+markdown:         kramdown
+highlighter:      pygments
+plugins:
+  - jekyll-paginate
+
+  # Permalinks
+permalink:        pretty
+
+# Setup
+title:            Death in Videogames
+description:      'Examining the relationship between games and death'
+url:              http://www.deathinvideogames.com
+baseurl:          /
+
+author:
+  name:           'The Author'
+  url:            https://www.burythehammer.com
+
+paginate:         1
