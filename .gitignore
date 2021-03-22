@@ -1,25 +1,17 @@
-# Hugo default output directory
-/public
-
-## OS Files
-# Windows
-Thumbs.db
-ehthumbs.db
-Desktop.ini
-$RECYCLE.BIN/
-
-# OSX
-.DS_Store
-
-.jekyll-cache
-
 .idea
 
-# Generated files by hugo
+# MacOS
+.DS_Store
+
+# Hugo
 /public/
 /resources/_gen/
-
-# Executable may be added to repository
 hugo.exe
 hugo.darwin
 hugo.linux
+
+# Jekyll
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
