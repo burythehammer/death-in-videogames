@@ -41,6 +41,9 @@ The most emotional parts of the game come upon the final journey to the "everdoo
 
 There is no form of systematic death in Spiritfarer, or even a failure state. There are platforming elements, but the player will always land in the sea, from which they can recover easily. If the player neglects to feed or care for the residents, then they will go hungry and stop providing bonuses to the ship - but they will never die. With no hard failure states, nor a deadline, this gives the game a relaxed tone, as there is no pressure or skill barrier which will prevent the player from achieving their goal.
 
+
+**_Spoilers follow._**
+
 Although the strict narrative element has you taking on the guise of a ferryman to the afterlife, there are strong thematic overtones of palliative care throughout the entire game. Stella, the player, cares for characters in their last moments, and helps make them comfortable before they leave. It is implied in certain game sequences that Stella was a palliative care nurse in real life, showing her at the bedside of various human characters. My interpretation is that the game serves not as Stella caring for others, but that she has died herself, and this game's story represents her coming to terms with the achievements and events of her own life. The game ends with Stella traveling through the everdoor, marking her own death.
 
 _Spiritfarer is available on the following platforms:_
