@@ -40,13 +40,13 @@ Games that have stealth in often give the player a choice whether or not to kill
 
 At the end of each level a “chaos score” is displayed. This score represents how many enemies the player has killed, and whether the player decided to kill or spare the target/s of the mission (it also represents some other things, but these have a minor effect). In essence, it is the amount of death the player has caused. The average chaos score can change (up or down) throughout the game, and its current level drastically changes the world and the narrative outcomes of the game in a fluid manner. The more people the player kills, the world reacts by becoming darker and more manevelent. This manifests in some obvious ways: NPCs disapprove of the players actions, and to see the “good” ending, you need to have not killed too many people. Much more interestingly however, death seeps into the very fabric of the world. The plague starts to advance rapidly, leading to more rats, more “weepers” (zombie-like plague victims), and more corpses lining the streets. Characters start to become less rational, more filled with hate and paranoia, and more outwardly aggressive. The death that the player introduces into the world begets more and more death.
 
-_Spoilers follow._
+**_Spoilers follow._**
 
 Thus, it is unsurprising that the “bad ending” follows from a high chaos playthrough - narratively, Dunwall has become a dark and unsettling place, full of madmen, killers and plague. You’ve simply introduced too much death into the world for it to recover.
 
 *Dishonored is available on the following platforms:*
-Windows
-PlayStation 3
-Xbox 360
-PlayStation 4
-Xbox One
+- Windows
+- PlayStation 3
+- Xbox 360
+- PlayStation 4
+- Xbox One
