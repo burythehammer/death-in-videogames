@@ -24,7 +24,6 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v6
         with:
-          submodules: recursive
           fetch-depth: 0
           lfs: false
 
@@ -51,13 +50,6 @@ jobs:
       - name: Configure Git
         run: |
           git config --global core.quotepath false
-
-      - name: Fetch full Git history
-        run: |
-          if [[ $(git rev-parse --is-shallow-repository) == true ]]; then
-            echo "Fetching full Git history"...
-            git fetch --unshallow
-          fi
 
       - name: Cache restore
         id: cache-restore
