@@ -6,8 +6,9 @@ locale = 'en-us'
 # (see ticket #9 — remove this override once Jekyll's public/ is deleted)
 publishDir = '_site'
 
-# TODO(#7): remove once the home/section/taxonomy/term templates land
-disableKinds = ['home', 'section', 'taxonomy', 'term']
+# No section/taxonomy/term listing pages exist on this site (tags are
+# metadata only, not browsable — matching current Jekyll behavior)
+disableKinds = ['section', 'taxonomy', 'term']
 
 [params]
   description = 'Examining the relationship between games and death'
@@ -15,3 +16,23 @@ disableKinds = ['home', 'section', 'taxonomy', 'term']
 
 [permalinks.page]
   posts = '/:year/:month/:day/:slug/'
+
+[pagination]
+  pagerSize = 1
+
+# Explicit related-content config so posts still surface as "related" on a
+# small site with few/no overlapping tags (falls back to same-year date
+# match), matching Jekyll's naive "other recent posts" related_posts default
+[related]
+  threshold = 0
+  includeNewer = false
+  toLower = false
+
+  [[related.indices]]
+    name = 'tags'
+    weight = 70
+
+  [[related.indices]]
+    name = 'date'
+    pattern = '2006'
+    weight = 10
