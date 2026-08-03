@@ -1,0 +1,17 @@
+title = 'Death in Videogames'
+baseURL = 'https://www.burythehammer.com/death-in-videogames/'
+locale = 'en-us'
+
+# Avoid colliding with the Jekyll `public/` source dir during the migration
+# (see ticket #9 — remove this override once Jekyll's public/ is deleted)
+publishDir = '_site'
+
+# TODO(#7): remove once the home/section/taxonomy/term templates land
+disableKinds = ['home', 'section', 'taxonomy', 'term']
+
+[params]
+  description = 'Examining the relationship between games and death'
+  author = 'The Author'
+
+[permalinks.page]
+  posts = '/:year/:month/:day/:slug/'
