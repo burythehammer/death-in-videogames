@@ -17,3 +17,8 @@ author:
   name:           'The Author'
 
 paginate:         1
+
+# Not site content — keep these out of the build
+exclude:
+  - CLAUDE.md
+  - docs/agents/
