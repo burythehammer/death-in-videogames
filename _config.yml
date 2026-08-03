@@ -10,8 +10,8 @@ permalink:        pretty
 # Setup
 title:            Death in Videogames
 description:      'Examining the relationship between games and death'
-url:              https://www.deathinvideogames.com
-baseurl:          /
+url:              https://burythehammer.github.io
+baseurl:          /death-in-videogames
 
 author:
   name:           'The Author'
