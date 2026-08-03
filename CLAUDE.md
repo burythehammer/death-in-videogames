@@ -66,6 +66,8 @@ Issues live as Forgejo Issues on `burythehammer/death-in-videogames` (forgejo.bu
 
 `origin` (Forgejo) is the primary dev remote — day-to-day work happens here. `github` is the production remote: GitHub Pages deploys the site from `main` on GitHub, so only push there when `main` is ready to ship.
 
+Feature workflow (issue → branch → PR → merge/close) follows the global default Forgejo workflow.
+
 ### Domain docs
 
 Single-context layout: `CONTEXT.md` + `docs/adr/` at the repo root. See `docs/agents/domain.md`.
