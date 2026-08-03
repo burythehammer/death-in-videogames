@@ -1,0 +1,24 @@
+{{ $page := . }}
+<div class="sidebar">
+  <div class="container sidebar-sticky">
+    <div class="sidebar-about">
+      <h1>
+        <a href="{{ "" | relURL }}">
+          {{ site.Title }}
+        </a>
+      </h1>
+      <p class="lead">{{ site.Params.description }}</p>
+    </div>
+
+    <nav class="sidebar-nav">
+      <a class="sidebar-nav-item{{ if $page.IsHome }} active{{ end }}" href="{{ "" | relURL }}">Home</a>
+
+      {{/* Standalone pages (e.g. About) — auto-discovered, mirroring Jekyll's site.pages/layout:page loop */}}
+      {{ range where site.RegularPages "Type" "page" }}
+        <a class="sidebar-nav-item{{ if eq $page.RelPermalink .RelPermalink }} active{{ end }}" href="{{ .RelPermalink }}">{{ .Title }}</a>
+      {{ end }}
+    </nav>
+
+    <p>&copy; {{ now.Format "2006" }}. 💀</p>
+  </div>
+</div>
