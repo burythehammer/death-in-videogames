@@ -2,12 +2,8 @@ title = 'Death in Videogames'
 baseURL = 'https://www.burythehammer.com/death-in-videogames/'
 locale = 'en-us'
 
-# Avoid colliding with the Jekyll `public/` source dir during the migration
-# (see ticket #9 — remove this override once Jekyll's public/ is deleted)
-publishDir = '_site'
-
 # No section/taxonomy/term listing pages exist on this site (tags are
-# metadata only, not browsable — matching current Jekyll behavior)
+# metadata only, not browsable)
 disableKinds = ['section', 'taxonomy', 'term']
 
 [params]
