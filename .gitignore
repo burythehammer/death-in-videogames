@@ -107,3 +107,6 @@ _site/
 .jekyll-cache/
 .jekyll-metadata
 
+### Hugo
+.hugo_build.lock
+
